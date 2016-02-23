@@ -1,0 +1,65 @@
+/*
+ * Highly influenced by http://asciidoctor.org (MIT)
+ */
+body {
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 60em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+header {
+    margin-top: 2.5em;
+    text-align: center;
+    border-bottom: 1px solid #ddddd8;
+    margin-bottom: 1.5em;
+}
+
+header h1 {
+    font-size: 1.7em;
+}
+
+header nav {
+    margin-top: -5px;
+}
+
+header nav a {
+    display: inline-block;
+    margin-bottom: 0.5em;
+}
+
+#content h1 {
+    float: left;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ddddd8;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+
+a, a:visited, a:hover {
+    font-size: 1em;
+    text-decoration: none;
+    color: #ba3925;
+}
+
+* {
+    clear: left;
+}
+
+@media screen and (min-width: 64em) {
+    body {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+}
