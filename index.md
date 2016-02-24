@@ -3,9 +3,10 @@ layout: default
 title: advisories
 ---
 
-php: stack overflow when decompressing tar archives
-===================================================
+CVE-2016-2554: php: stack overflow when decompressing tar archives
+==================================================================
 * [php](https://bugs.php.net/bug.php?id=71488)
+* [oss-security](http://seclists.org/oss-sec/2016/q1/428)
 * [github](https://github.com/dyntopia/advisories/blob/master/006-php.org)
 
 
