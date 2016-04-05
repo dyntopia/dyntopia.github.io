@@ -3,6 +3,14 @@ layout: default
 title: advisories
 ---
 
+CVE-2016-2191: optipng: invalid write
+=====================================
+* [bugtraq](http://seclists.org/bugtraq/2016/Apr/18)
+* [full disclosure](http://seclists.org/fulldisclosure/2016/Apr/15)
+* [oss-security](http://www.openwall.com/lists/oss-security/2016/04/04/2)
+* [github](https://github.com/dyntopia/advisories/blob/master/007-optipng.org)
+
+
 CVE-2016-2554: php: stack overflow when decompressing tar archives
 ==================================================================
 * [php](https://bugs.php.net/bug.php?id=71488)
