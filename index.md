@@ -3,6 +3,14 @@ layout: default
 title: advisories
 ---
 
+CVE-2016-3074: libgd: signedness vulnerability
+==============================================
+* [bugtraq](http://seclists.org/bugtraq/2016/Apr/120)
+* [full disclosure](http://seclists.org/fulldisclosure/2016/Apr/72)
+* [oss-security](http://seclists.org/oss-sec/2016/q2/128)
+* [github](https://github.com/dyntopia/advisories/blob/master/008-libgd.org)
+
+
 CVE-2016-2191: optipng: invalid write
 =====================================
 * [bugtraq](http://seclists.org/bugtraq/2016/Apr/18)
