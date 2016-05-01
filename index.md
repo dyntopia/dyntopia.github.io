@@ -3,6 +3,13 @@ layout: default
 title: advisories
 ---
 
+CVE-2016-3078: php: integer overflow in ZipArchive::getFrom*
+============================================================
+* [bugtraq](http://seclists.org/bugtraq/2016/Apr/159)
+* [oss-security](http://seclists.org/oss-sec/2016/q2/158)
+* [github](https://github.com/dyntopia/advisories/blob/master/009-php.org)
+
+
 CVE-2016-3074: libgd: signedness vulnerability
 ==============================================
 * [bugtraq](http://seclists.org/bugtraq/2016/Apr/120)
