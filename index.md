@@ -3,6 +3,19 @@ layout: default
 title: advisories
 ---
 
+CVE-2016-5399: php: out-of-bounds write in bzread()
+===================================================
+* [bugtraq](http://seclists.org/bugtraq/2016/Jul/96)
+* [oss-security](http://seclists.org/oss-sec/2016/q3/121)
+* [github](https://github.com/dyntopia/advisories/blob/master/011-php.org)
+
+
+CVE-2016-4473: php: invalid free in phar_extract_file()
+=======================================================
+* [php](https://bugs.php.net/bug.php?id=72321)
+* [github](https://github.com/dyntopia/advisories/blob/master/010-php.org)
+
+
 CVE-2016-3078: php: integer overflow in ZipArchive::getFrom*
 ============================================================
 * [bugtraq](http://seclists.org/bugtraq/2016/Apr/159)
