@@ -79,6 +79,7 @@ a:hover {
 
 .item-title {
   letter-spacing: -1px;
+  line-height: 1;
   font-size: 42px;
   margin-bottom: 15px;
 }
@@ -91,9 +92,13 @@ a:hover {
   clear: left;
 }
 
-@media screen and (min-width: 64em) {
-  body {
-    padding-left: 10em;
-    padding-right: 10em;
+@media screen and (max-width: 800px) {
+  .item-title {
+    font-size: 36px;
+  }
+
+  .content {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
