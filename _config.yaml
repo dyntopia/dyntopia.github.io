@@ -12,6 +12,7 @@ defaults:
       type: "advisories"
     values:
       layout: "item"
+      feed: true
 
 plugins:
   - jekyll-redirect-from
