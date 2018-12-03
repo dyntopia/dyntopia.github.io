@@ -42,8 +42,16 @@ header nav a {
   border-bottom: 1px solid #ddddd8;
 }
 
+ul, ol {
+  padding: 0;
+}
+
 ul {
-  padding-left: 1.5em;
+  list-style: none;
+}
+
+ol {
+  list-style: inside decimal;
 }
 
 a,
