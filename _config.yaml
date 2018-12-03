@@ -8,6 +8,11 @@ collections:
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  collections: true
+  strip_title: true
 
 exclude:
   - CNAME
