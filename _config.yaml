@@ -1,5 +1,6 @@
 title: Hans Jerry Illikainen
 highlighter: rouge
+safe: true
 
 exclude:
   - CNAME
