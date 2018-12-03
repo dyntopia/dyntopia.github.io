@@ -47,6 +47,10 @@ ol {
   list-style: inside decimal;
 }
 
+code {
+  background-color: #f8f8f8;
+}
+
 pre {
   overflow-x: auto;
 }
