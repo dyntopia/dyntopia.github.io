@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<ul class="item-list">
+  {% for collection in site.collections %}
+    {% if collection.label == page.title %}
+      {% for doc in collection.docs reversed %}
+        {% if doc.title != page.title %}
+        <li class="item">
+          <a class="item-link" href="{{ doc.url }}">{{ doc.title }}</a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</ul>
