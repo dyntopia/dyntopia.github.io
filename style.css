@@ -54,6 +54,10 @@ a:hover {
   color: #ba3925;
 }
 
+.site-title {
+  color: #424242;
+}
+
 * {
   clear: left;
 }
