@@ -47,6 +47,10 @@ ol {
   list-style: inside decimal;
 }
 
+pre {
+  overflow-x: auto;
+}
+
 a,
 a:visited,
 a:hover {
