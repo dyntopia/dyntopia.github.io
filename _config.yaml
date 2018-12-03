@@ -6,6 +6,13 @@ collections:
   advisories:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "advisories"
+    values:
+      layout: "item"
+
 plugins:
   - jekyll-redirect-from
   - jekyll-titles-from-headings
