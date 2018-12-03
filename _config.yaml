@@ -5,6 +5,7 @@ safe: true
 collections:
   advisories:
     output: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:
