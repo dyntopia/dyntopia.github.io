@@ -26,10 +26,6 @@ header h1 {
   font-size: 1.7em;
 }
 
-header nav {
-  margin-top: -5px;
-}
-
 header nav a {
   display: inline-block;
   margin-bottom: 0.5em;
@@ -63,6 +59,12 @@ a:hover {
   color: #ba3925;
 }
 
+.external-link,
+.external-link:hover {
+  border-bottom: 0;
+  color: #424242;
+}
+
 .item-link {
   border-bottom: 1px solid #ddddd8;
   line-height: 1.5;
@@ -90,6 +92,7 @@ a:hover {
 
 .site-title {
   color: #424242;
+  margin: 0;
 }
 
 * {

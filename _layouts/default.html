@@ -4,13 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="alternate" type="application/atom+xml" href="/feed.xml">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/highlight.css">
-    <link rel="alternate" type="application/atom+xml" href="/feed.xml">
+    <link rel="stylesheet"
+          type="text/css"
+          href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha256-nkysZcel7gvQdDr+/KvdPnOFThKErJrEM4E9YjH1UPI="
+          crossorigin="anonymous">
   </head>
   <body>
     <header>
       <h1 class="site-title">{{ site.title }}</h1>
+      <a class="external-link" href="https://github.com/{{ site.github }}">
+        <span class="fab fa-github"></span>
+      </a>
+      <a class="external-link" href="mailto:{{ site.email }}">
+        <span class="far fa-envelope"></span>
+      </a>
       <nav>
         {% for collection in site.collections %}
           {% if collection.docs.size > 0 %}
