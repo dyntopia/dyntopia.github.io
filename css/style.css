@@ -54,6 +54,7 @@ pre {
 a,
 a:visited,
 a:hover {
+  border-bottom: 1px solid #ddddd8;
   font-size: 16px;
   text-decoration: none;
   color: #ba3925;
@@ -66,7 +67,6 @@ a:hover {
 }
 
 .item-link {
-  border-bottom: 1px solid #ddddd8;
   line-height: 1.5;
 }
 
