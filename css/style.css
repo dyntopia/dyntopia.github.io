@@ -90,6 +90,10 @@ a:hover {
   margin-bottom: 15px;
 }
 
+.item-content img {
+  width: 100%;
+}
+
 .site-title {
   color: #424242;
   margin: 0;
