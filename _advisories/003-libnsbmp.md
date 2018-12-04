@@ -1,7 +1,7 @@
 ---
 date: 2015-12-16
 ---
-# CVE-2015-7508 / CVE-2015-7507: libnsbmp: heap overflow and out-of-bounds read
+# CVE-2015-7507 / CVE-2015-7508: libnsbmp: heap overflow and out-of-bounds read
 
 ## Overview
 
