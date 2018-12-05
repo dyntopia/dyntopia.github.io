@@ -61,6 +61,7 @@ a:hover {
 }
 
 .external-link,
+.external-link:visited,
 .external-link:hover {
   border-bottom: 0;
   color: #424242;
