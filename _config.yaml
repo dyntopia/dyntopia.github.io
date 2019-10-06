@@ -47,3 +47,5 @@ titles_from_headings:
 
 exclude:
   - CNAME
+  - Gemfile
+  - Gemfile.lock
