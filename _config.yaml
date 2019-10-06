@@ -10,6 +10,9 @@ collections:
   advisories:
     output: true
     permalink: /:collection/:name
+  blog:
+    output: true
+    permalink: /:collection/:name
   exploits:
     output: true
     permalink: /:collection/:name
@@ -18,6 +21,12 @@ defaults:
   - scope:
       path: ""
       type: "advisories"
+    values:
+      layout: "item"
+      feed: true
+  - scope:
+      path: ""
+      type: "blog"
     values:
       layout: "item"
       feed: true
